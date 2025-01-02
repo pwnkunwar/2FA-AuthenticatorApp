@@ -1,0 +1,16 @@
+*.log  
+/bin*
+/obj*
+*.vs
+/LilamiBazzar/LilamiBazzar/wwwroot/uploads/
+/LilamiBazzar/LilamiBazzar.DataAccess/obj*
+/LilamiBazzar/LilamiBazzar.DataAccess/bin*
+/LilamiBazzar/LilamiBazzar.Models/bin*
+/LilamiBazzar/LilamiBazzar.Models/obj*
+/LilamiBazzar/LilamiBazzar.Utility/bin*
+/LilamiBazzar/LilamiBazzar.Utility/obj*
+/LilamiBazzar/LilamiBazzar/bin*
+/LilamiBazzar/LilamiBazzar/obj*
+/LilamiBazzar/LilamiBazzar/.config/
+/LilamiBazzar/LilamiBazzar/Properties/PublishProfiles/
+/LilamiBazzar/LilamiBazzar/appsettings.json
