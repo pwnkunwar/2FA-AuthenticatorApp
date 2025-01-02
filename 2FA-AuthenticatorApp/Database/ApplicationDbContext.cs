@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace _2FA_AuthenticatorApp.Database
+namespace TwoFA_AuthenticatorApp.Database
 {
     public class ApplicationDbContext: IdentityDbContext<IdentityUser>
     {

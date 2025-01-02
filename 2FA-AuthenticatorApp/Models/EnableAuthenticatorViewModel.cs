@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace _2FA_AuthenticatorApp.Models
+namespace TwoFA_AuthenticatorApp.Models
 {
     public class EnableAuthenticatorViewModel
     {

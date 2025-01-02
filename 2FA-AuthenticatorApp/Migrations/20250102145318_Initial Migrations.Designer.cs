@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _2FA_AuthenticatorApp.Database;
+using TwoFA_AuthenticatorApp.Database;
 
 #nullable disable
 
