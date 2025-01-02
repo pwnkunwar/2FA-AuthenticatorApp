@@ -1,0 +1,25 @@
+﻿@using TwoFA_AuthenticatorApp.Models
+@model EnableAuthenticatorViewModel
+
+<h2>Set up Two-Factor Authentication</h2>
+
+<p>
+    Scan the QR code below with your Google Authenticator app or manually enter the key:
+</p>
+
+<div>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=@Model.AuthenticatorUri&size=200x200" alt="QR Code" />
+</div>
+
+<p>
+    Key: <strong>@Model.SharedKey</strong>
+</p>
+
+<form asp-action="EnableAuthenticator" method="post">
+    <div class="form-group">
+        <label asp-for="Code"></label>
+        <input asp-for="Code" class="form-control" />
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Verify</button>
+</form>
