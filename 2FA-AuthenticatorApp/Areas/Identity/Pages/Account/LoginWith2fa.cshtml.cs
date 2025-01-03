@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace _2FA_AuthenticatorApp.Areas.Identity.Pages.Account
+namespace TwoFA_AuthenticatorApp.Areas.Identity.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2FA-AuthenticatorApp", "2FA-AuthenticatorApp\2FA-AuthenticatorApp.csproj", "{9D593C18-83CA-42D4-8400-C6DEC9BEA120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFA-AuthenticatorApp", "2FA-AuthenticatorApp\TwoFA-AuthenticatorApp.csproj", "{9D593C18-83CA-42D4-8400-C6DEC9BEA120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

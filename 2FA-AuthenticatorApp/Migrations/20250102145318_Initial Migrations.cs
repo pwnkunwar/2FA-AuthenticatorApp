@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace _2FA_AuthenticatorApp.Migrations
+namespace _TwoFA_AuthenticatorApp.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigrations : Migration

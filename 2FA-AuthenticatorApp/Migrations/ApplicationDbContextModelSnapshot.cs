@@ -7,7 +7,7 @@ using TwoFA_AuthenticatorApp.Database;
 
 #nullable disable
 
-namespace _2FA_AuthenticatorApp.Migrations
+namespace _TwoFA_AuthenticatorApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

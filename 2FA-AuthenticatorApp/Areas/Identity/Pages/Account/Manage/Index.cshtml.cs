@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace _2FA_AuthenticatorApp.Areas.Identity.Pages.Account.Manage
+namespace TwoFA_AuthenticatorApp.Areas.Identity.Pages.Account.Manage
 {
     public class IndexModel : PageModel
     {

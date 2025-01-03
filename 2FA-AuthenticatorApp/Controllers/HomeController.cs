@@ -1,8 +1,8 @@
-using _2FA_AuthenticatorApp.Models;
+using _TwoFA_AuthenticatorApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace _2FA_AuthenticatorApp.Controllers
+namespace TwoFA_AuthenticatorApp.Controllers
 {
     public class HomeController : Controller
     {

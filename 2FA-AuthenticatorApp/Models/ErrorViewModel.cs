@@ -1,4 +1,4 @@
-namespace _2FA_AuthenticatorApp.Models
+namespace _TwoFA_AuthenticatorApp.Models
 {
     public class ErrorViewModel
     {

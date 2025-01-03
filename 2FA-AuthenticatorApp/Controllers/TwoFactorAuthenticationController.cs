@@ -1,10 +1,10 @@
-﻿using _2FA_AuthenticatorApp.Models;
+﻿using _TwoFA_AuthenticatorApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using TwoFA_AuthenticatorApp.Models;
 
-namespace _2FA_AuthenticatorApp.Controllers
+namespace _TwoFA_AuthenticatorApp.Controllers
 {
     public class TwoFactorAuthenticationController : Controller
     {
@@ -19,6 +19,11 @@ namespace _2FA_AuthenticatorApp.Controllers
         public async Task<IActionResult> EnableAuthenticator()
         {
             var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                // Handle the null user scenario (e.g., redirect to login page or show an error)
+                return RedirectToAction("Login", "Account");
+            }
             var authenticatorKey = await _userManager.GetAuthenticatorKeyAsync(user);
             if(string.IsNullOrEmpty(authenticatorKey))
             {

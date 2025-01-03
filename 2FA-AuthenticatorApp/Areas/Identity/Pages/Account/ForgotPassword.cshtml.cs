@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace _2FA_AuthenticatorApp.Areas.Identity.Pages.Account
+namespace TwoFA_AuthenticatorApp.Areas.Identity.Pages.Account
 {
     public class ForgotPasswordModel : PageModel
     {

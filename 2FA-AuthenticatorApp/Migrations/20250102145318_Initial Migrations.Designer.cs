@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using _2FA_AuthenticatorApp.Database;
+using TwoFA_AuthenticatorApp.Database;
 using TwoFA_AuthenticatorApp.Database;
 
 #nullable disable
 
-namespace _2FA_AuthenticatorApp.Migrations
+namespace _TwoFA_AuthenticatorApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250102145318_Initial Migrations")]
